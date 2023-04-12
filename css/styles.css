@@ -1,0 +1,194 @@
+   
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.new-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 3.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    height: auto;
+}
+
+button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Title image */
+.title-image {
+    width: 60%;
+    margin: auto auto -18rem 50px;
+    transform: rotate(25deg);
+
+}
+
+/* Features */
+
+#features {
+    padding: 10% 15%;
+    background-color: white;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+.p-features {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5px;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 1.5rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    top: 200px;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    top: 200px;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 28.1rem;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.card {
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* Call To Action Section */
+#cta {
+    background-color: #ff4c68;
+    padding-top: 7%;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 10%;
+    text-align: center;
+    color: #8f8f8f;
+    position: relative;
+}
+
+.fimg {
+    padding: 10px;
+}
+
+.p-footer {
+    font-size: 2.0 rem;
+    margin: 0px;
+}
+
+
+/*Phone Format*/
+@media (max-width: 992px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        margin: auto;
+        padding-bottom: 5%;
+        transform: rotate(0deg);
+    }
+
+}
